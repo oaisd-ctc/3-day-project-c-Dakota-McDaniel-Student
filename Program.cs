@@ -2,9 +2,11 @@
 
 public class Program
 {
-
+    
     public static void Main(string[] args)
     {
+       
+
         System.Console.WriteLine("WELCOME MESSAGE");
         System.Console.WriteLine("ENTER INFO, NAME, BOSSES, QUIT");
         string userInput = Console.ReadLine();
@@ -20,6 +22,8 @@ public class Program
 
     static void userChoices(string userInput)
     {
+        
+
         switch (userInput.ToLower())
         {
 

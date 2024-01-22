@@ -2,7 +2,7 @@ public class Player {
 
     private int health;
     private string name;
-    private string[] inventory;
+    private string[] inventory = new string[4];
 
     public Player(string name, string startingPotion) {
         this.name = name;
@@ -20,6 +20,7 @@ public class Player {
 
     public string GetInventory() {
         return inventory[0];
+        
     }
 
 }
