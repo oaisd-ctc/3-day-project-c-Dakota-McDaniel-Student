@@ -2,12 +2,16 @@ public class Player {
 
     private int health;
     private string name;
+    private string weapon;
     private string[] inventory = new string[4];
 
-    public Player(string name, string startingPotion) {
+    public Player(string name, string startingPotion, string weapon) {
         this.name = name;
+        this.weapon = weapon;
         health = 100;
-        inventory[0] = startingPotion;
+        
+        inventory[0] = weapon;
+        inventory[1] = startingPotion;
     }
 
     public void SetName(string newName) {
