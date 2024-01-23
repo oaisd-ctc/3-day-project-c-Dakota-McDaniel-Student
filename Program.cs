@@ -16,8 +16,9 @@ public class Program
             
             switch (userInput.ToLower())
             {
-          userChoices(userInput);  
-          userInput = Console.ReadLine();
+                userChoices(userInput);  
+                userInput = Console.ReadLine();
+            }
         }
         
         
@@ -49,14 +50,4 @@ public class Program
             }
             userInput = Console.ReadLine();
         }
-
-
     }
-
-
-
-
-
-
-
-}
